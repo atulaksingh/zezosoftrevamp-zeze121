@@ -9,7 +9,7 @@ Author:
 
 	"use strict";
 
-	var SaaSio_Crypto = {
+	var Zezo_Crypto = {
 		init: function() {
 			this.Basic.init();  
 		},
@@ -188,7 +188,7 @@ Author:
 }
 }
 jQuery(document).ready(function (){
-	SaaSio_Crypto.init();
+	Zezo_Crypto.init();
 });
 
 })();

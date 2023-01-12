@@ -10,7 +10,7 @@ Last change:    00/00/00
 
 	"use strict";
 
-	var SaaSio_business_4 = {
+	var Zezo_business_4 = {
 		init: function() {
 			this.Basic.init();  
 		},
@@ -245,7 +245,7 @@ Last change:    00/00/00
 		}	
 	}
 	jQuery(document).ready(function (){
-		SaaSio_business_4.init();
+		Zezo_business_4.init();
 	});
 
 })();

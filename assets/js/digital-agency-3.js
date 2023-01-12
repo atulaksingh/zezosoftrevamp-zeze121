@@ -10,7 +10,7 @@ Last change:    00/00/00
 
 	"use strict";
 
-	var aplpg_SaaSio = {
+	var aplpg_Zezo = {
 		init: function() {
 			this.Basic.init();  
 		},
@@ -261,7 +261,7 @@ Last change:    00/00/00
 		}	
 	}
 	jQuery(document).ready(function (){
-		aplpg_SaaSio.init();
+		aplpg_Zezo.init();
 
 
 

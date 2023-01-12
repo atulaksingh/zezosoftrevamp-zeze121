@@ -9,7 +9,7 @@ Author:
 
 	"use strict";
 
-	var SaaSio_NFT = {
+	var Zezo_NFT = {
 		init: function() {
 			this.Basic.init();  
 		},
@@ -189,7 +189,7 @@ Author:
 }
 }
 jQuery(document).ready(function (){
-	SaaSio_NFT.init();
+	Zezo_NFT.init();
 });
 
 })();

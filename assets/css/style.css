@@ -15777,7 +15777,7 @@ div#preloader {
   }
 }
 /*** Start Of blog Section ***/
-.saasio-breadcurmb-section {
+.Zezo-breadcurmb-section {
   background-color: #7d0e28;
   padding: 260px 0px 150px
 }
@@ -15789,12 +15789,12 @@ div#preloader {
   font-family: 'Poppins';
   padding-bottom: 20px;
 }
-.saasio-page-breadcurmb li a  {
+.Zezo-page-breadcurmb li a  {
   color: #fff;
   margin: 0px 10px;
   position: relative;
 }
-.saasio-page-breadcurmb li a:after {
+.Zezo-page-breadcurmb li a:after {
  top: 2px;
  right: -17px;
  content: '\f054';
@@ -15803,7 +15803,7 @@ div#preloader {
  position: absolute;
  font-family: 'Font Awesome 5 Free';
 }
-.saasio-page-breadcurmb li:last-child a::after {
+.Zezo-page-breadcurmb li:last-child a::after {
   display: none;
 }
 .news-feed-section {
@@ -15816,17 +15816,17 @@ div#preloader {
   margin-bottom: 40px;
   box-shadow: 0px 0px 35px rgba(0,0,0,0.15);
 }
-.news-feed-section .saasio-blog-text {
+.news-feed-section .Zezo-blog-text {
   padding: 22px 30px 0px 0px;
 }
-.news-feed-section .saasio-blog-text h3 {
+.news-feed-section .Zezo-blog-text h3 {
   color: #373a5b;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.6;
   font-family: 'Poppins';
 }
-.news-feed-section .saasio-blog-text p {
+.news-feed-section .Zezo-blog-text p {
   margin-bottom: 0;
   padding-top: 20px;
 }
@@ -15836,18 +15836,18 @@ div#preloader {
   font-weight: 700;
   margin-top: 20px;
 }
-.saasio-post-meta  a {
+.Zezo-post-meta  a {
   color: #777a91;
   margin-right: 15px;
 }
-.saasio-post-meta  a i {
+.Zezo-post-meta  a i {
   margin-right: 3px;
   font-size: 15px;
 }
-.saasio-pagination {
+.Zezo-pagination {
   padding-top: 30px;
 }
-.saasio-pagination a {
+.Zezo-pagination a {
   height: 40px;
   width: 40px;
   color: #fff;
@@ -15858,17 +15858,17 @@ div#preloader {
   background-color: #7d0e28;
   transition: .3s all ease-in-out;
 }
-.saasio-pagination a:hover,
-.saasio-pagination a.active {
+.Zezo-pagination a:hover,
+.Zezo-pagination a.active {
   background-color: #cc0fda;
 }
-.saasio-blog-sidebar {
+.Zezo-blog-sidebar {
   padding-left: 30px;
 }
 .side-bar-widget {
   margin-bottom: 60px;
 }
-.saasio-blog-sidebar .widget-title-2 {
+.Zezo-blog-sidebar .widget-title-2 {
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 30px;
@@ -16013,10 +16013,10 @@ div#preloader {
   background-color: #f7f7f7;
   transition: .3s all ease-in-out;
 }
-.saasio-comment-field {
+.Zezo-comment-field {
   padding-top: 80px;
 }
-.saasio-comment-field h3 {
+.Zezo-comment-field h3 {
   font-weight: 600;
   font-size: 30px;
 }
@@ -16081,10 +16081,10 @@ div#preloader {
   background-color: #7d0e28;
 }
 @media screen and (max-width: 1024px) { 
-  .news-feed-section .saasio-blog-text {
+  .news-feed-section .Zezo-blog-text {
     padding: 22px 30px 30px 0px
   }
-  .news-feed-section .saasio-blog-text h3 {
+  .news-feed-section .Zezo-blog-text h3 {
     font-size: 20px;
   }
   .recent-post-img-text .recent-post-text h3 {
@@ -16098,15 +16098,15 @@ div#preloader {
   .blog-feed-img-txt {
     padding: 30px;
   }
-  .saasio-blog-sidebar {
+  .Zezo-blog-sidebar {
     padding-left: 0;
   }
 }
 @media screen and (max-width: 767px) { 
-  .saasio-blog-sidebar {
+  .Zezo-blog-sidebar {
     margin-top: 30px;
   }
-  .saasio-breadcurmb-section {
+  .Zezo-breadcurmb-section {
     padding: 150px 0px 100px;
   }
   .breadcurmb-title h2 {
@@ -16125,7 +16125,7 @@ div#preloader {
   }
 }
 /*=====================================================================
-SaaSio - HR Management
+Zezo - HR Management
 =====================================================================*/
 .pm-intregation-section .pm-intregation-text .pm-intr-feature-inner a .pm-inft-icon i {
   display: block;

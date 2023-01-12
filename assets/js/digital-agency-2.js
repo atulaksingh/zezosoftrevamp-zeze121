@@ -10,7 +10,7 @@ Last change:    00/00/00
 
 	"use strict";
 
-	var SaaSio_Digital_Agency_2 = {
+	var Zezo_Digital_Agency_2 = {
 		init: function() {
 			this.Basic.init();  
 		},
@@ -254,7 +254,7 @@ Last change:    00/00/00
 		}
 	}
 	jQuery(document).ready(function (){
-		SaaSio_Digital_Agency_2.init();
+		Zezo_Digital_Agency_2.init();
 	});
 
 })();

@@ -9,16 +9,16 @@ Author:
 
 	"use strict";
 
-	var SaaSio = {
+	var Zezo = {
 		init: function() {
 			this.Basic.init();  
 		},
 
 		Basic: {
 			init: function() {
-				this.Saasiopreloader();
+				this.Zezopreloader();
 				this.BackgroundImage();
-				this.SaaSioOnePageNav();
+				this.ZezoOnePageNav();
 				this.counterUp();
 				this.EiStickyMenu();
 				this.EiscreenSlider();
@@ -66,7 +66,7 @@ Author:
 				this.PmPartnerSlider();
 				this.Animation();
 			},
-			Saasiopreloader: function (){
+			Zezopreloader: function (){
 				jQuery(window).on('load', function(){
 					jQuery('#preloader').fadeOut('slow',function(){jQuery(this).remove();});
 				});
@@ -76,8 +76,8 @@ Author:
 					$(this).css('background-image', 'url('+ $(this).attr('data-background') + ')');
 				});
 			},
-			SaaSioOnePageNav: function (){
-				$('.saasio_one_click ul li a').on("click", function(){
+			ZezoOnePageNav: function (){
+				$('.Zezo_one_click ul li a').on("click", function(){
 					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 						var target = $(this.hash);
 						target = target.length ? target : $('[name="DCSext.Level"' + this.hash.slice(1) +']');
@@ -1080,7 +1080,7 @@ Author:
 }
 }
 jQuery(document).ready(function (){
-	SaaSio.init();
+	Zezo.init();
 });
 
 })();

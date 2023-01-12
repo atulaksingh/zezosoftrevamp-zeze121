@@ -9,7 +9,7 @@ Author:
 
 	"use strict";
 
-	var SaaSio = {
+	var Zezo = {
 		init: function() {
 			this.Basic.init();  
 		},
@@ -620,7 +620,7 @@ Author:
 }
 }
 jQuery(document).ready(function (){
-	SaaSio.init();
+	Zezo.init();
 });
 
 })();

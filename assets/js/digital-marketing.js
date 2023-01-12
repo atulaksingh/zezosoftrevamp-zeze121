@@ -9,7 +9,7 @@ Author:
 
 	"use strict";
 
-	var SaaSio_Digital_Marketing = {
+	var Zezo_Digital_Marketing = {
 		init: function() {
 			this.Basic.init();  
 		},
@@ -183,7 +183,7 @@ Author:
 }
 }
 jQuery(document).ready(function (){
-	SaaSio_Digital_Marketing.init();
+	Zezo_Digital_Marketing.init();
 });
 
 })();
