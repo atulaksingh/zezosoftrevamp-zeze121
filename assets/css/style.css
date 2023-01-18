@@ -11922,6 +11922,10 @@ Sticky Menu
 .str-work-process-section .str-work-process-content .col-lg-4:nth-child(2) .str-work-icon-text {
   position: relative;
 }
+.process-content {
+  min-height: 470px;
+  overflow: hidden;
+}
 
 .str-work-process-section .str-work-process-content .col-lg-4:nth-child(2) .str-work-icon-text:before {
   top: 70px;
