@@ -101,11 +101,11 @@
     const firstName = document.getElementById("firstName").value;
     const lastName = document.getElementById("lastName").value;
     const email = document.getElementById("email").value;
-    const subject = document.getElementById("subject").value;
+    const number = document.getElementById("number").value;
     const message = document.getElementById("message").value;
 
     // alret if any field is empty
-    if (!firstName || !lastName || !email || !subject || !message) {
+    if (!firstName || !lastName || !email || !number || !message) {
       alert("Please fill all the fields");
       document.getElementById("leads-submit-btn").innerHTML = `Submit Now <i class="fas fa-arrow-right"></i>`;
       return;
@@ -115,29 +115,33 @@
 
 
     const fromData = new FormData();
-    fromData.append("source", "3");
-    fromData.append("status", "3");
+    // fromData.append("source", "3");
+    // fromData.append("status", "3");
     fromData.append("name", name);
     fromData.append("email", email);
-    fromData.append("title", subject);
-    fromData.append("description", message);
+    fromData.append("phone", number);
+    fromData.append("message", message);
 
     try {
-      const { data } = await axios.post('https://cors-anywhere-969l.onrender.com/https://crm.zezosoft.com/api/leads/', fromData, {
+      const { data } = await axios.post('https://cors-anywhere-969l.onrender.com/https://api.zezo.in/api/leads', fromData, {
         headers: {
-          "Content-Type": "multipart/form-data",
-          "authtoken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiWmV6byIsIm5hbWUiOiJaZXpvc29mdCIsIkFQSV9USU1FIjoxNjYzMjM1NTc3fQ.8cbng_Z6-6L7OogcH-Q_x1T_TVONmDb88iVTIMDIQ2Q"
+          "Content-Type": "application/json",
+          "x-requested-with": "",
         }
       });
+
       document.getElementById("leads-submit-btn").innerHTML = `Success`;
-      console.log(data);
 
       // reset form
       document.getElementById("firstName").value = "";
       document.getElementById("lastName").value = "";
       document.getElementById("email").value = "";
-      document.getElementById("subject").value = "";
+      document.getElementById("number").value = "";
       document.getElementById("message").value = "";
+
+      setTimeout(() => {
+        document.getElementById("leads-submit-btn").innerHTML = `Submit Now <i class="fas fa-arrow-right"></i>`;
+      }, 2000);
     } catch (error) {
       document.getElementById("leads-submit-btn").innerHTML = `Submit Now <i class="fas fa-plus"></i>`;
       console.error(error);
@@ -158,7 +162,6 @@
         "x-requested-by": "",
 
         "Accept": "*/*",
-        'authtoken': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiWmV6byIsIm5hbWUiOiJaZXpvc29mdCIsIkFQSV9USU1FIjoxNjYzMjM1NTc3fQ.8cbng_Z6-6L7OogcH-Q_x1T_TVONmDb88iVTIMDIQ2Q'
       },
       body: {
         "source": "3",
@@ -169,7 +172,7 @@
 
       },
     }
-    let p = await fetch('https://cors-anywhere-969l.onrender.com/https://crm.zezosoft.com/api/leads/', postData)
+    let p = await fetch('https://cors-anywhere-969l.onrender.com', postData)
     let response = await p.json()
     return response
   }
@@ -1028,7 +1031,7 @@
               </div>
               <div class="row">
                 <div class="col-xl-12">
-                  <input type="text" placeholder="Subject" id="subject" />
+                  <input type="text" placeholder="Phone Number" id="number" />
                 </div>
               </div>
               <div class="row">
