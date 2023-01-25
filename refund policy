@@ -1,0 +1,665 @@
+<h1>Cancellation and Refund Policy</h1>
+<p>Last updated: January 20, 2023</p>
+<p>No cancellations & Refunds are entertained</p>
+
+<p>The following terms are applicable for any products that You purchased with Us.</p>
+<h1>Interpretation and Definitions</h1>
+<h2>Interpretation</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zezo - About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/assets/img/port-img-31/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/port-img-31/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/flaticon-3.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/side-demo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-212897500-1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+         dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-212897500-1');
+   </script>
+
+   <!-- Facebook Pixel Code -->
+
+   <script>
+      ! function(f, b, e, v, n, t, s) {
+         if (f.fbq) return;
+         n = f.fbq = function() {
+            n.callMethod ?
+
+               n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+         };
+
+         if (!f._fbq) f._fbq = n;
+         n.push = n;
+         n.loaded = !0;
+         n.version = '2.0';
+
+         n.queue = [];
+         t = b.createElement(e);
+         t.async = !0;
+
+         t.src = v;
+         s = b.getElementsByTagName(e)[0];
+
+         s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+
+         'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '937862613527174');
+
+      fbq('track', 'PageView');
+   </script>
+
+   <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=937862613527174&ev=PageView&noscript=1" />
+   </noscript>
+
+   <!-- End Facebook Pixel Code -->
+   
+   <!-- Global site tag (gtag.js) - Google Ads: AW-304750169 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-304750169"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag(){
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-304750169');
+    </script>
+</head>
+<!-- 
+<a href="#" class="apihu-port-scroll-top" style="display: block;"><i class="fas fa-chevron-up"></i></a> -->
+      <!-- Start of header section
+        ============================================= -->
+        <header id="header_main" class="saas_two_main_header">
+            <div class="container">
+                <div class="s_main_menu">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="brand_logo">
+                                <a href="index.html"><img src="assets/img/saas-c/logo/red zezo  (1).png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="main_menu_list clearfix float-right">
+                                <nav class="s2-main-navigation  clearfix ul-li">
+                                    <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
+                                        <li><a href="index.html">Home</a></li>
+                                       
+                                        <li><a href="about.html" target="_self">About</a></li>
+                                        <li><a href="portfolio.html" target="_self">Portfolio</a></li>
+                                        <li><a href="service.html" target="_self">Service</a></li>
+                                        <li><a href="contact.html" target="_self">Contact</a></li>
+                                        <li class="dropdown">
+                                            <a href="#">Blog</a>
+                                            <ul class="dropdown-menu clearfix">
+                                                <li><a target="_self" href="blog.html">Blog Page</a></li>
+                                                <li><a target="_self" href="blog-single.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="saas_sign_up_btn text-center">
+                                    <a href="https://api.whatsapp.com/send?phone=7860057243&amp;text=hi"> Let's Talk</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //desktop menu -->
+                <div class="s2-mobile_menu relative-position">
+                    <div class="s2-mobile_menu_button s2-open_mobile_menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="s2-mobile_menu_wrap">
+                        <div class="mobile_menu_overlay s2-open_mobile_menu"></div>
+                        <div class="s2-mobile_menu_content">
+                            <div class="s2-mobile_menu_close s2-open_mobile_menu">
+                                <i class="far fa-times-circle"></i>
+                            </div>
+                            <div class="m-brand-logo text-center">
+                                <a href="index.html"><img src="assets/img/saas-c/logo/red zezo  (1).png" alt=""></a>
+                            </div>
+                            <nav class="s2-mobile-main-navigation  clearfix ul-li">
+                               <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+                                <li><a href="index.html" target="_self">Home</li>
+                                <li><a href="about.html" target="_self">About</a></li>
+                                <li><a href="portfolio.html" target="_self">Portfolio</a></li>
+                                <li><a href="service.html" target="_self">Service</a></li>
+                                <li><a href="contact.html" target="_self">Contact</a></li>
+                                <li>
+                                    <a href="blog.html">Blog</a>
+                                    <!-- <ul class="dropdown-menu clearfix">
+                                        <li><a target="_self" href="blog.html">Blog Page</a></li>
+                                        <li><a target="_self" href="blog-single.html">Blog Details</a></li>
+                                    </ul> -->
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+  
+
+    <div id="__next">
+      <div class=" bottom-3 right-3 cursor-pointer z-20"></div>
+      <div class=" ">
+        <nav>
+          <div class="w-full font-poppins z-50">
+            <div
+              class="  grid  grid-cols-1 2xl:mt-5 md:grid-cols-6 lg:grid-cols-6 lg:mx-16 z-50 h-[60px]"
+            >
+              <div
+                class="col-span-1 flex mx-[17px] md:mx-auto lg:mx-0 my-auto justify-between lg:h-auto object-contain md:mb-0"
+              >
+                <div>
+                  <span
+                    style="
+                      box-sizing: border-box;
+                      display: inline-block;
+                      overflow: hidden;
+                      width: initial;
+                      height: initial;
+                      background: none;
+                      opacity: 1;
+                      border: 0;
+                      margin: 0;
+                      padding: 0;
+                      position: relative;
+                      max-width: 100%;
+                    "
+                    ><span
+                      style="
+                        box-sizing: border-box;
+                        display: block;
+                        width: initial;
+                        height: initial;
+                        background: none;
+                        opacity: 1;
+                        border: 0;
+                        margin: 0;
+                        padding: 0;
+                        max-width: 100%;
+                      "
+                      ><img
+                        style="
+                          display: block;
+                          max-width: 100%;
+                          width: initial;
+                          height: initial;
+                          background: none;
+                          opacity: 1;
+                          border: 0;
+                          margin: 0;
+                          padding: 0;
+                        "
+                        alt=""
+                        aria-hidden="true"
+                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%2740%27/%3e" /></span
+                    ><img
+                      alt="Digital marketing agency in andheri - zezosoft"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      decoding="async"
+                      data-nimg="intrinsic"
+                      class="w-fit cursor-pointer"
+                      style="
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        box-sizing: border-box;
+                        padding: 0;
+                        border: none;
+                        margin: auto;
+                        display: block;
+                        width: 0;
+                        height: 0;
+                        min-width: 100%;
+                        max-width: 100%;
+                        min-height: 100%;
+                        max-height: 100%;
+                        object-fit: contain;
+                      " /><noscript
+                      ><img
+                        alt="Digital marketing agency in andheri - zezosoft"
+                        srcset="
+                          /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdm4uaqlio%2Fimage%2Fupload%2Fv1660730798%2Fzezo%2FWhite_Logo_pwpqkh.png&amp;w=128&amp;q=75 1x,
+                          /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdm4uaqlio%2Fimage%2Fupload%2Fv1660730798%2Fzezo%2FWhite_Logo_pwpqkh.png&amp;w=256&amp;q=75 2x
+                        "
+                        src="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdm4uaqlio%2Fimage%2Fupload%2Fv1660730798%2Fzezo%2FWhite_Logo_pwpqkh.png&amp;w=256&amp;q=75"
+                        decoding="async"
+                        data-nimg="intrinsic"
+                        style="
+                          position: absolute;
+                          top: 0;
+                          left: 0;
+                          bottom: 0;
+                          right: 0;
+                          box-sizing: border-box;
+                          padding: 0;
+                          border: none;
+                          margin: auto;
+                          display: block;
+                          width: 0;
+                          height: 0;
+                          min-width: 100%;
+                          max-width: 100%;
+                          min-height: 100%;
+                          max-height: 100%;
+                          object-fit: contain;
+                        "
+                        class="w-fit cursor-pointer"
+                        loading="lazy" /></noscript
+                  ></span>
+                </div>
+                <div class="md:hidden stroke-red-900 w-fit">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-10"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      stroke-miterlimit="10"
+                      stroke-width="32"
+                      d="M80 160h352M80 256h352M80 352h352"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="invisible md:visible lg:visible col-span-1 md:col-span-4 md:flex lg:justify-end md:justify-center bg-bg md:bg-transparent z-20"
+              >
+                <ul class="md:flex lg:gap-8 md:gap-4 my-auto z-20">
+                  <li
+                    class="hover:text-red-900 md:flex md:gap-3 text-nav lg:text-lg mt-14 md:mb-0 mb-14 md:mt-auto font-semibold text-center text-2xl md:text-base 2xl:text-3xl"
+                  >
+                    <a href="/">Home</a>
+                  </li>
+                  <li
+                    class="hover:text-red-900 md:flex md:gap-3 text-nav lg:text-lg mt-14 md:mb-0 mb-14 md:mt-auto font-semibold text-center text-2xl md:text-base 2xl:text-3xl"
+                  >
+                    <a href="/service">Services</a>
+                  </li>
+                  <li
+                    class="hover:text-red-900 md:flex md:gap-3 text-nav lg:text-lg mt-14 md:mb-0 mb-14 md:mt-auto font-semibold text-center text-2xl md:text-base 2xl:text-3xl"
+                  >
+                    <a href="/about">About</a>
+                  </li>
+                  <li
+                    class="hover:text-red-900 md:flex md:gap-3 text-nav lg:text-lg mt-14 md:mb-0 mb-14 md:mt-auto font-semibold text-center text-2xl md:text-base 2xl:text-3xl"
+                  >
+                    <a href="/blogs">Blogs</a>
+                  </li>
+                  <li
+                    class="hover:text-red-900 md:flex md:gap-3 text-nav lg:text-lg mt-14 md:mb-0 mb-14 md:mt-auto font-semibold text-center text-2xl md:text-base 2xl:text-3xl"
+                  >
+                    <a href="/portfolio">Portfolio</a>
+                  </li>
+                  <li
+                    class="hover:text-red-900 md:flex md:gap-3 text-nav lg:text-lg mt-14 md:mb-0 mb-14 md:mt-auto font-semibold text-center text-2xl md:text-base 2xl:text-3xl"
+                  >
+                    <a href="/#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="invisible md:visible lg:visible col-span-1 my-auto md:mx-auto md:mr-4 lg:w-[120px] lg:h-[38px] md:w-[108px] z-20 2xl:w-40 2xl:h-10 md:h-[35px] text-center border border-red-900 hover:border-red-900 p-5 lg:p-2 md:p-1 cursor-pointer text-white hover:text-red-900 hover:bg-white bg-red-900 text-3xl md:text-base"
+              >
+                <a href="https://wa.me/+917860057243?text=Hi%20Zezo!">
+                  Let&#x27;s Talk</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+        <main>
+          <noscript
+            ><iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-NZGNKRP"
+              id="style1"
+            ></iframe
+          ></noscript>
+          <div class="mx-2 md:mx-10 lg:mx-20 text-justify">
+            <div class="text-3xl lg:text-5xl my-5 lg:mt-20 font-semibold">
+              Privacy Policy for <span class="text-red-900">Zezo</span>
+            </div>
+            <div class="text-Tmonial">
+              At Zezo, accessible from zezosoft.com, one of our main priorities is
+              the privacy of our visitors. This Privacy Policy document contains
+              types of information that is collected and recorded by Zezo and how
+              we use it. <br />If you have additional questions or require more
+              information about our Privacy Policy, do not hesitate to contact
+              us.<br />This Privacy Policy applies only to our online activities
+              and is valid for visitors to our website with regards to the
+              information that they shared and/or collect in Zezo. This policy is
+              not applicable to any information collected offline or via channels
+              other than this website.<br />
+            </div>
+            <div class="text-3xl mt-2 font-semibold">Consent</div>
+            <div class="text-Tmonial">
+              By using our website, you hereby consent to our Privacy Policy and
+              agree to its terms.
+            </div>
+            <div class="text-3xl mt-2 font-semibold">Information we collect</div>
+            <div class="text-Tmonial">
+              The personal information that you are asked to provide, and the
+              reasons why you are asked to provide it, will be made clear to you
+              at the point we ask you to provide your personal information.<br />If
+              you contact us directly, we may receive additional information about
+              you such as your name, email address, phone number, the contents of
+              the message and/or attachments you may send us, and any other
+              information you may choose to provide.<br />When you register for an
+              Account, we may ask for your contact information, including items
+              such as name, company name, address, email address, and telephone
+              number.<br />
+            </div>
+            <div class="text-3xl mt-2 font-semibold">
+              How we use your information
+            </div>
+            <div class="text-Tmonial">
+              We use the information we collect in various ways, including to:<br />
+              <ul class="list-disc list-inside">
+                <li>Provide, Operate, And Maintain Our Website</li>
+                <li>Improve, Personalize, And Expand Our Website</li>
+                <li>Understand And Analyze How You Use Our Website</li>
+                <li>
+                  Develop New Products, Services, Features, And Functionality
+                </li>
+                <li>
+                  Communicate With You, Either Directly Or Through One Of Our
+                  Partners, Including For Customer Service, To Provide You With
+                  Updates And Other Information Relating To The Website, And For
+                  Marketing And Promotional Purposes
+                </li>
+                <li>Send You Emails</li>
+                <li>Find And Prevent Fraud</li>
+              </ul>
+            </div>
+            <div class="text-3xl mt-2 font-semibold">Log Files</div>
+            <div class="text-Tmonial">
+              Zezo follows a standard procedure of using log files. These files
+              log visitors when they visit websites. All hosting companies do this
+              and a part of hosting services analytics. The information collected
+              by log files include internet protocol (IP) addresses, browser type,
+              Internet Service Provider (ISP), date and time stamp, referring/exit
+              pages, and possibly the number of clicks. These are not linked to
+              any information that is personally identifiable. The purpose of the
+              information is for analyzing trends, administering the site,
+              tracking users movement on the website, and gathering demographic
+              information.
+            </div>
+            <div class="text-3xl mt-2 font-semibold">Cookies and Web Beacons</div>
+            <div class="text-Tmonial">
+              Like any other website, Zezo uses &#x27;cookies&#x27;. These cookies
+              are used to store information including visitor&#x27;s preferences,
+              and the pages on the website that the visitor accessed or visited.
+              The information is used to optimize the user&#x27;s experience by
+              customizing our web page content based on visitor&#x27;s browser
+              type and/or other information.
+            </div>
+            <div class="text-3xl mt-2 font-semibold">
+              Advertising Partners Privacy Policies
+            </div>
+            <div class="text-Tmonial">
+              You may consult this list to find the Privacy Policy for each of the
+              advertising partners of Zezo.<br />Third-party ad servers or ad
+              networks uses technologies like cookies, JavaScript, or Web Beacons
+              that are used in their respective advertisements and links that
+              appear on Zezo, which are sent directly to user&#x27;s browser. They
+              automatically receive your IP address when this occurs. These
+              technologies are used to measure the effectiveness of their
+              advertising campaigns and/or to personalize the advertising content
+              that you see on websites that you visit.<br />Note that Zezo has no
+              access to or control over these cookies that are used by third-party
+              advertisers.
+            </div>
+            <div class="text-3xl mt-2 font-semibold">
+              Third Party Privacy Policies
+            </div>
+            <div class="text-Tmonial">
+              Zezo&#x27;s Privacy Policy does not apply to other advertisers or
+              websites. Thus, we are advising you to consult the respective
+              Privacy Policies of these third-party ad servers for more detailed
+              information. It may include their practices and instructions about
+              how to opt-out of certain options.<br />You can choose to disable
+              cookies through your individual browser options. To know more
+              detailed information about cookie management with specific web
+              browsers, it can be found at the browser&#x27;s respective websites.
+            </div>
+            <div class="text-3xl mt-2 font-semibold">
+              CCPA Privacy Rights (Do Not Sell My Personal Information)
+            </div>
+            <div class="text-Tmonial">
+              Under the CCPA, among other rights, California consumers have the
+              right to:<br />Request that a business that collects a
+              consumer&#x27;s personal data disclose the categories and specific
+              pieces of personal data that a business has collected about
+              consumers.<br />Request that a business delete any personal data
+              about the consumer that a business has collected.<br />Request that
+              a business that sells a consumer&#x27;s personal data, not sell the
+              consumer&#x27;s personal data.<br />If you make a request, we have
+              one month to respond to you. If you would like to exercise any of
+              these rights, please contact us.<br />
+            </div>
+            <div class="text-3xl mt-2 font-semibold">
+              GDPR Data Protection Rights
+            </div>
+            <div class="text-Tmonial">
+              We would like to make sure you are fully aware of all of your data
+              protection rights. Every user is entitled to the following:<br />The
+              right to access — You have the right to request copies of your
+              personal data. We may charge you a small fee for this service.<br />The
+              right to rectification — You have the right to request that we
+              correct any information you believe is inaccurate. You also have the
+              right to request that we complete the information you believe is
+              incomplete.<br />The right to erasure — You have the right to
+              request that we erase your personal data, under certain
+              conditions.<br />The right to restrict processing — You have the
+              right to request that we restrict the processing of your personal
+              data, under certain conditions.<br />The right to object to
+              processing — You have the right to object to our processing of your
+              personal data, under certain conditions.<br />The right to data
+              portability — You have the right to request that we transfer the
+              data that we have collected to another organization, or directly to
+              you, under certain conditions.<br />If you make a request, we have
+              one month to respond to you. If you would like to exercise any of
+              these rights, please contact us.
+            </div>
+            <div class="text-3xl mt-2 font-semibold">
+              Children&#x27;s Information
+            </div>
+            <div class="text-Tmonial">
+              Another part of our priority is adding protection for children while
+              using the internet. We encourage parents and guardians to observe,
+              participate in, and/or monitor and guide their online activity.<br />Zezo
+              does not knowingly collect any Personal Identifiable Information
+              from children under the age of 13. If you think that your child
+              provided this kind of information on our website, we strongly
+              encourage you to contact us immediately and we will do our best
+              efforts to promptly remove such information from our records.
+            </div>
+          </div>
+        </main>
+        <footer id="saas_two_footer" class="saas_two_footer_section relative-position">
+            <div class="s2-newslatter_section relative-position">
+                <div class="container">
+                    <div class="s2-newslatter_content relative-position" style="text-align: center;">
+                        <div class="s2-newslatter_title  text-center saas2-headline pera-content">
+                               <h2>Have Project in Mind?</h2>
+                  <p>Let's get to chat</p>
+                        </div>
+                        <div class="" style="margin-top: 10px; padding-top: 20px;">
+                            <a style=" border: none;
+                                  color: white;
+                                  
+                                  text-align: center;
+                                  text-decoration: none;
+                                  display: inline-block;
+                                  font-size: 18px;
+                                  font-weight: 800;
+                                  border-radius: 5%;
+                                  padding: 15px 50px 15px 50px;
+                                  background-color: rgb(115, 11, 4);
+                                  margin: 4px 2px;
+                                  cursor: pointer;" class="button button1" href="tel:+7860057243" target="_blank">Call us</a>
+                            <a style=" border: none;
+          color: white;
+          font-size: large;
+          padding: 15px 40px 15px 40px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          border-radius: 5%;
+          background-color: green;
+          margin: 4px 2px;
+          cursor: pointer;" class="button button1" href="https://wa.me/+7860057243?text=Hi%20Zezo!" target="_blank">Whatsapp</a>
+                         </div>
+
+
+
+                    <div class="s2-newslatter-form  relative-position">
+
+</div>
+</div>
+                    <div class="newsletter_pattern_1"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+               <lottie-player src="https://lottie.host/f4cd21be-7cee-469d-9526-7070f13d914c/SjuxUN3O2m.json"
+                  background="transparent" speed="1" style="width: 300px; height: 320px;" loop autoplay></lottie-player></div>
+                    <div class="cloud_anim newsletter_pattern_2" style="background-image: url(../../old3.commonsupport.com/emu/wp-content/uploads/2023/02/cloud-2.html);"></div>
+                    <div class="cloud_anim newsletter_pattern_3" style="background-image: url(../../old3.commonsupport.com/emu/wp-content/uploads/2023/02/cloud-5.html);"></div> 
+                    <div class="newsletter_pattern_4 " style="background-image: url(assets/img/saas-c/banner/ns.png);"></div>
+                    <div class="newsletter_pattern_5 " style="background-image: url(assets/img/saas-c/banner/ns2.png);"></div>
+                </div>
+            </div> 
+            <div class="footer_content pera-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="s2_footer_widget clearfix ul-li-block  saas2-headline">
+                                <div class="s2_footer_about">
+                                    <div class="s2-footer_logo">
+                                        <img src="assets/img/saas-c/logo/red zezo  (1).png" alt="">
+                                    </div>
+                                    <div class="footer_about">
+                                      <h4>SOFTWARES PRIVATE LIMITED</h4> E 203, E Wing, Crystal Plaza, opp. Infinity Mall, Andheri West, Mumbai, Maharashtra 400053.
+                                    </div>
+                                    <span>Open Hours: </span>
+                                    <p>Mon - Sat: 10 am - 7 pm,
+                                    Sunday: CLOSED</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="s2_footer_widget clearfix ul-li-block saas2-headline">
+                                <div class="s2_footer_menu">
+                                    <h3 class="s2_widget_title">
+                                        <span>Links</span>
+                                        <i></i>
+                                    </h3>
+                                    <ul>
+                                        <li><a href="index.html"> Home</a></li>
+                                        <li><a href="/about.html#sa-team-inner"> Team</a></li>
+                                           <li><a href="privacy-policy.html"> Privacy Policy</a></li>
+                                        <li><a href="service.html"> Services</a></li>
+                                        <li><a href="terms-condition.html">Terms & Condtions</a></li>
+                                        <li><a href="about.html"> About us</a></li>
+                                        <li><a href="contact.html"> Contact</a></li>
+                                        <li><a href="/#testimonial"> Testimonials</a></li>
+                                     
+                                        <li><a href="portfolio.html"> Portfolio</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="s2_footer_widget clearfix ul-li-block saas2-headline">
+                                <div class="s2_footer_social">
+                                    <h3 class="s2_widget_title">
+                                         <span>Talk to us</span>
+                                        <i></i>
+                                    </h3>
+                                    <p style="margin-bottom: 10px;">Get Free Consultant</p>
+                                   <!-- <form action="#">
+                                        <input  name="email" type="email" placeholder="Enter your email address">
+                                        <button  type="submit" value="Submit"> <i class="fas fa-paper-plane"></i></button>
+                                    </form> -->
+                                    <a href="https://www.facebook.com/zezosoftwares" target="_blank"><i class="fb-bg fab fa-facebook-f "></i></a>
+                                    <a href="https://www.instagram.com/zezosoftware/" target="_blank"><i class="bh-bg fab fa-instagram"></i></a>
+                                    <a href="https://twitter.com/zezosoftwares" target="_blank"><i class="tw-bg fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/company/zezosoftwares" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="mailto:hello@zezosoft.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                    <a href="https://wa.me/+7860057243?text=Hi%20Zezo!" target="_blank"><i class="dr-bg fab fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      </div>
+    </div>
+
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tilt.jquery.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/jquery.barfiller.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/jquery.paroller.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/side-demo.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- ****************************************************** -->
+    <script
+  data-cfasync="false"
+  src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+></script>
+<script src="/assets/css/js/modernizr-3.5.0.min.js"></script>
+<!-- <script src="/assets/css/js/jquery-3.6.0.min.js"></script> -->
+<script src="/assets/css/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/css/js/app.bundle.js"></script>
+
+<script src="/assets/css/js/main.js"></script>
+ 
+  </body>
+  
+</html>
