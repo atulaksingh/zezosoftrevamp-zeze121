@@ -1,9 +1,7 @@
     <!DOCTYPE html>
     <html lang="en">
 
-    
-<!-- Mirrored from html.zezosoft.com/Zezo/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Jan 2023 09:26:23 GMT -->
-<head>
+    <head>
         <meta charset="UTF-8">
         <title>Zezo - Contact</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -105,6 +103,64 @@
 
       gtag('config', 'AW-304750169');
   </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+<script>
+  const formSubmit = async (e) => {
+    e.preventDefault();
+    // set loading text in id leads-submit-btn
+    document.getElementById("leads-submit-btn-2").innerHTML = "Loading...";
+
+    // get form data
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const number = document.getElementById("phone").value;
+    const message = document.getElementById("message").value;
+
+    // alret if any field is empty
+    if (!name || !email || !number || !message) {
+      alert("Please fill all the fields");
+      document.getElementById("leads-submit-btn-2").innerHTML = `Send your inquiry
+                           <i class="fas fa-arrow-right fa-btn"></i>`;
+      return;
+    }
+
+
+    const fromData = new FormData();
+    // fromData.append("source", "3");
+    // fromData.append("status", "3");
+    fromData.append("name", name);
+    fromData.append("email", email);
+    fromData.append("phone", number);
+    fromData.append("message", message);
+
+    try {
+      const { data } = await axios.post('https://cors-anywhere-969l.onrender.com/https://api.zezo.in/api/leads', fromData, {
+        headers: {
+          "Content-Type": "application/json",
+          "x-requested-with": "",
+        }
+      });
+
+      document.getElementById("leads-submit-btn-2").innerHTML = `Success`;
+
+      // reset form
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("phone").value = "";
+      document.getElementById("message").value = "";
+
+      setTimeout(() => {
+        document.getElementById("leads-submit-btn-2").innerHTML = `Send your inquiry
+                           <i class="fas fa-arrow-right fa-btn"></i>`;
+      }, 2000);
+    } catch (error) {
+      document.getElementById("leads-submit-btn-2").innerHTML = `Send your inquiry
+                           <i class="fas fa-arrow-right fa-btn"></i>`;
+      console.error(error);
+    }
+  }
+</script>
 
 
 
@@ -475,13 +531,14 @@
                      </h4>
                    </div>
                    <div class="form-body">
-                     <form action="#" method="post" name="feedback-form">
+                     <form onsubmit="formSubmit(event)" method="POST">
                        <div class="fieldsets row">
                          <div class="col-md-6">
                            <input
                              type="text"
                              placeholder="Full Name"
                              name="name"
+                             id="name"
                            />
                          </div>
                          <div class="col-md-6">
@@ -489,30 +546,32 @@
                              type="email"
                              placeholder="Email Address"
                              name="email"
+                            id="email"
                            />
                          </div>
                        </div>
                        <div class="fieldsets row">
-                         <div class="col-md-6">
+                         <div class="col-md-12">
                            <input
                              type="number"
                              placeholder="Contact Number"
                              name="phone"
+                              id="phone"
                            />
                          </div>
-                         <div class="col-md-6">
+                         <!-- <div class="col-md-6">
                            <input type="text" placeholder="Zoom Meeting" name="Zoom" />
-                         </div>
+                         </div> -->
                        </div>
                        <div class="fieldsets row">
-                         <div class="col-md-6">
+                         <!-- <div class="col-md-6">
                            <input
                              type="text"
                              placeholder="Subject"
                              name="subject"
                            />
-                         </div>
-                         <div class="col-md-6">
+                         </div> -->
+                         <!-- <div class="col-md-6">
                            <select>
                              <option>interested in</option>
                              <option>Web Design</option>
@@ -522,10 +581,10 @@
                              <option>Business Development</option>
                              <option>Other...</option>
                            </select>
-                         </div>
+                         </div> -->
                        </div>
                        <div class="fieldsets">
-                         <textarea placeholder="Message" name="message"></textarea>
+                         <textarea placeholder="Message" name="message" id="message"></textarea>
                        </div>
                        <div class="custom-control custom-checkbox">
                          <input
@@ -548,6 +607,7 @@
                            type="submit"
                            name="submit"
                            class="ree-btn ree-btn-grdt1 w-100"
+                           id="leads-submit-btn-2"
                          >
                            Send your inquiry
                            <i class="fas fa-arrow-right fa-btn"></i>
@@ -943,5 +1003,4 @@ src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
 
     </body>
     
-<!-- Mirrored from html.zezosoft.com/Zezo/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Jan 2023 09:26:23 GMT -->
 </html>          
